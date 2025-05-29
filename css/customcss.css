@@ -1,0 +1,131 @@
+
+.error-bar {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;
+  z-index: 1050;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  color: white;
+}
+
+.error-bar-btn {
+  color: white;
+}
+.d-flex {
+    perspective: 1000px;
+}
+button.capcha {
+   transition: background-color 0.3s ease, transform 0.6s ease;
+   transform-origin: center;
+   background-color: transparent;
+   color: black;
+   padding: 10px;
+   border: 2px solid #007bff;
+   border-radius: 50%;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+@keyframes spin {
+   0% {
+       transform: rotate(0deg);
+   }
+   100% {
+       transform: rotate(360deg);
+   }
+}
+button.capcha.spin {
+   animation: spin 0.3s linear;
+}
+button.capcha.success {
+   background-color: #28a745;
+   color: white;
+   border-color: #28a745;
+}
+button.capcha.failure {
+   background-color: #dc3545;
+   color: white;
+   border-color: #dc3545;
+}
+
+.capcha_card {
+    padding: 3px;
+    padding-left: 15px;
+}
+.capcha_image {
+    height: 40px;
+}
+.capcha_input {
+    width: 130px;
+}
+.capcha_button {
+    position: relative;
+    top: 9px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+.capcha_label {
+    color: red;
+    text-size: 10px;
+    display: none;
+}
+.terms_conditions{
+    height: 5px;
+}
+.lost_password_small {
+    padding-bottom: 10px;
+}
+.remember_me_space{
+    height: 10px;
+}
+
+.sign_in_image {
+    background-image:url('../img/curved-images/curved14.jpg');
+}
+
+.signup_phone_input {
+    display: flex;
+    align-items: center;
+}
+.sign_up_image{
+    background-image: url('../img/curved-images/curved7.jpg');
+}
+.lovejoy_logo {
+    padding-right:10px;
+}
+.fa_circles_step {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+}
+.fa_qr_code {
+    margin: auto;
+    display: block;
+
+}
+.fa_card_body{
+    padding: 2px;
+    padding-left: 5px;
+     padding-right: 5px;
+}
+.settings_delete_button{
+    border: 0px;
+    background: none;
+}
+.eval_button{
+    border: 0px;
+    background: none;
+}
+.request_image_preview{
+    display: none;
+}
+
+.indextable_whitetext{
+    color:white;
+}
